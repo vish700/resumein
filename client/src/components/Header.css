@@ -1,0 +1,56 @@
+.header{ 
+  
+    color: white; 
+       text-align: center; 
+       background-color: #141E61; 
+       height: 15vh;  
+       min-width: 170ch; 
+         display: flex;  
+        justify-content: space-evenly; 
+       align-items: center; 
+       position: sticky; 
+       top: 0; 
+       z-index: 100; 
+    
+   } 
+   .logo{ 
+         
+       width: 100px; 
+       margin-right: 50ch; 
+       background-color: white; 
+   } 
+   .header__option{ 
+         
+       display: flex;  
+       justify-content: space-evenly;
+       margin-right: 20ch; 
+       color: white; 
+        
+   } 
+   .header__Button{ 
+       display: flex; 
+       border: none; 
+       border-radius: 10px; 
+       margin-top: 8px; 
+        height: 4vh; 
+   } 
+   .header__bar{ 
+       display: flex; 
+       justify-content: space-evenly; 
+         
+   } 
+   .header__optionLineTwo{ 
+       font-size: 13px; 
+       font-weight: 800; 
+       background-color: white; 
+       margin-left: 20ch;
+   }
+   .header__optionLineOne{ 
+    font-size: 13px; 
+    font-weight: 800;  
+    margin-left: 20ch;
+}
+.logo > img{
+    height: 80px; 
+    width: 100px;
+}
