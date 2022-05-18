@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vish700.github.io/resumein",
   "name": "react_resume",
   "version": "1.0.0",
   "description": "",
@@ -6,6 +7,8 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "client-install": "npm install --prefix client",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
